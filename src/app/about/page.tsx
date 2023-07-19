@@ -1,6 +1,14 @@
 import Hero from "@/components/Hero";
+import { Metadata } from "next";
 
 const TITLE_CLASS = "text-2xl font-bold text-gray-800 my-2";
+
+export const metadata: Metadata = {
+  title: {
+    default: "About Me",
+    template: "파푸의 커리어",
+  },
+};
 
 export default function AboutPage() {
   return (
